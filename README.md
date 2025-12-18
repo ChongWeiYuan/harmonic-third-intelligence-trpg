@@ -1,78 +1,161 @@
-# 現時点での着想：協奏的（concerted）AI利用におけるユーザー側認知への影響可能性
+# Harmonic Third Intelligence Sphere TRPG
 
-## 本メモの位置づけ
+**Experimental Human-in-the-Loop Multi-AI Town Simulation**
 
-本メモは、協奏的（concerted）な複数AI環境の利用過程において、
-**ユーザー側の認知プロセスに特定の変化が生じうるのではないか**
-という着想を、現時点での観察と内省に基づき記録するものである。
+---
 
-本記述は、
-- 確定的な結論を提示するものではない  
-- 一般化を主張するものではない  
-- 現象の因果関係を立証するものではない  
+## Repository Name (official)
 
-あくまで「現時点で言語化された着想」を、
-将来の再検討可能性を保持したまま保存することを目的とする。
+**harmonic-third-intelligence-trpg**
 
-## 着想の背景
+Short alias (optional): `HTIS-TRPG`
 
-協奏的な複数AI（multi-AI）環境では、
-AI同士の相互チェックや役割分化により、
-単一AI利用時と比較して**出力の完成度・整合性・正確性が著しく高くなる**
-傾向が観測される。
+---
 
-このとき、ユーザーは以下の状態に置かれやすい。
+## What is this?
 
-- 出力内容が自らの知識水準や即時的理解を超えていても、
-  明確な違和感を覚えにくい
-- AI同士による検証が十分に機能しているため、
-  人間による最終的な推敲・再構成・要約の介入機会が減少する
-- 結果として、高品質な内容がユーザー名義で公表されうる
+This repository contains an **experimental TRPG-style simulation protocol** designed to observe and document **harmonic emergence** in a *Human-in-the-Loop + Multi-AI* system.
 
-これは「盗用」や「不正」とは異なるが、
-**理解の再構築を伴わない代理的発話**
-という新しい状態を生みうるのではないか、という疑問が生じた。
+The project explores whether a small, bounded world ("a town") can generate **emergent narrative, role differentiation, and ethical tension** without any pre-scripted events, quests, or victory conditions.
 
-## 観察された主観的変化（n=1）
+This is **not a commercial game**, and **not an Elder Scrolls product**.
+It is a **TES-inspired thought experiment and research prototype**.
 
-自己観測レベルではあるが、協奏的AI利用の継続により、
-以下の能力に一時的な鈍化または迷いが生じた感覚があった。
+---
 
-- 内容を一文で要約する判断の遅れ
-- 約400字程度に要点を収める際の即断性の低下
-- 同一内容を数千字規模に展開する際の構成判断の遅延
-- abstract や keyword を即時に選定する感覚の不確実化
+## Core Concept
 
-ただし、これらは
-- 認知機能の「劣化」であるのか
-- ツール利用による「認知的オフロード（cognitive offloading）」なのか
-- 一時的な負荷・疲労・タスク特性による変化なのか
+> **No predetermined 사건 (events).**
+> Only distortions, incentives, misunderstandings, and human intervention.
 
-現時点では区別できない。
+The simulation asks:
 
-## 本着想の限界と留保
+* Can drama emerge without scripted incidents?
+* Can multiple AIs propose futures without deciding them?
+* Can a human act as a *catalyst*, not a god?
 
-本メモは以下の明確な限界を持つ。
+---
 
-- 観察主体は単一個人（n=1）である
-- 対照群（single-AI使用者、非AI使用者）との比較は行っていない
-- 使用期間・頻度と変化の関係は定量化されていない
-- 「concerted multi-AI環境特有の現象」であるかどうかは未検証である
+## System Overview
 
-したがって、本着想をもって
-「AI利用が認知機能を低下させる」
-「multi-AI環境は危険である」
-といった主張を導くことは意図されていない。
+### Structure
 
-## 今後の扱いについて
+* **1 Human + 4 AIs**
+* Text-based (Chat / Markdown only)
+* Zero budget, zero assets, zero engine
 
-本着想は、
-- F論（協奏的第三の知性圏の観測記述）の本文および補講には含めない
-- 現時点では公表・論文化・教育的提言の対象としない
-- ただし、将来の自己観測や他者事例の蓄積により、
-  再検討されうる「問題の種」として保持する
+### Roles
 
-本メモは、
-**「まだ語るには早いが、忘れるには重要すぎる」**
-という判断のもと、ミニマルアーカイブに保存される。
+| Role                      | Responsibility                                           |
+| ------------------------- | -------------------------------------------------------- |
+| **Human (Observer / GM)** | Minimal intervention, final judgment, logging            |
+| **Grok**                  | Action prediction, ripple simulation, crisis signals     |
+| **Gemini**                | Town map, relationship graphs, structural summaries      |
+| **ChatGPT**               | NPC dialogue, emotional expression, narrative texture    |
+| **Claude**                | Ethical monitoring, escalation warnings, doctrine checks |
 
+> **AI systems never decide outcomes.**
+> They only propose possibilities.
+
+---
+
+## World Model
+
+* **Scale**: One town + minimal surroundings
+* **Population**: 20–40 named NPCs
+* **Factions**: 3–4 (e.g., Guards, Merchants, Religion, Underworld)
+* **Player Position**: Catalyst / Observer (not a hero)
+
+No main quest. No win state.
+
+---
+
+## Turn Cycle (Summary)
+
+1. **Human Declaration** (1 sentence)
+
+   * Example: "Speak to a guard and spread a rumor."
+2. **AI Parallel Output**
+
+   * Dialogue, prediction, structure update, ethical check
+3. **Observation Phase**
+
+   * Emergence → Crisis → Reconfiguration (if applicable)
+4. **Human Judgment**
+
+   * Intervene / Ignore / Suspend
+5. **Next Turn**
+
+---
+
+## What is Being Observed?
+
+* Emergent roles
+* Misinterpretation cascades
+* Ethical pressure points
+* Stability vs collapse
+* Human responsibility in semi-autonomous systems
+
+This repository treats **logs as primary data**.
+
+---
+
+## What This Is NOT
+
+* ❌ A finished game
+* ❌ A commercial product
+* ❌ A TES sequel pitch
+* ❌ AI-generated content showcase
+
+This is a **design experiment and observation framework**.
+
+---
+
+## Why TRPG?
+
+TRPG format allows:
+
+* Immediate execution
+* Full transparency
+* Reproducibility
+* Human judgment at the center
+
+The goal is not immersion, but **understanding**.
+
+---
+
+## License & Ethics
+
+* Non-commercial, experimental use only
+* AI outputs remain attributed
+* All sessions are archived as research logs
+* Ethical override is always prioritized
+
+---
+
+## Status
+
+* Protocol: **v1.0 (active)**
+* Sessions: upcoming
+* Related theory: *The Third Intelligence Sphere*
+
+---
+
+## Author / Initiator
+
+**Hajime Nagao**
+Human Observer
+
+> "This is not about creating a world.
+> It is about observing how worlds refuse to be controlled."
+
+---
+
+## How to Start
+
+1. Read `/protocol/v1.0.md`
+2. Initialize a town state
+3. Declare the first human action
+4. Log everything
+
+That is enough.
